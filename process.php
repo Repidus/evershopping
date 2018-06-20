@@ -6,7 +6,7 @@
   $title = mysqli_real_escape_string($conn, $_POST['title']);
   $author = mysqli_real_escape_string($conn, $_POST['author']);
   $description = mysqli_real_escape_string($conn, $_POST['description']);
-
+  
   $sql = "SELECT * FROM user WHERE name='".$author."'";
   $result = mysqli_query($conn, $sql);
   if ($result->num_rows == 0) {
