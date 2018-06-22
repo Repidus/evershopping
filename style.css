@@ -15,3 +15,17 @@ body.white{
 #control{
   margin-bottom: 40px;
 }
+#hi {
+  float: right;
+  padding-right: 10px;
+}
+#logout_btn {
+  float: right;
+  padding-right: 10px;
+}
+label {
+  padding-right: 10px;
+}
+.padding {
+  padding: 50px;
+}
